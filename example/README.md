@@ -1,4 +1,4 @@
-# `<js-snippet>` Example
+# `<code-along>` Example
 
 To help you build your study guides, this repository comes with a custom HTML element. You can use it just like a normal HTML element, check out the examples in `./index.html`.
 
