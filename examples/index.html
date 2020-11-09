@@ -5,6 +5,12 @@
   <meta charset="utf-8" />
   <title>example topic page</title>
 
+  <style>
+    .snippet {
+      font-size: 70%;
+    }
+  </style>
+
   <!-- you will need these styles and scripts to use <code-along> -->
   <script src='../lib/prettier/standalone.js'></script>
   <script src='../lib/prettier/parser-babel.js'></script>
@@ -45,7 +51,9 @@
 
   <!-- Examples: some helpful example(s) to study  -->
 
-  <pre data-src='./snippets/falsy-values.js' eval js-tutor></pre>
+  <div class='snippet'>
+    <pre class='line-numbers' data-src='./snippets/falsy-values.js' eval js-tutor></pre>
+  </div>
 
   <!-- Explanation: a more in-depth explanation of the examples -->
 
