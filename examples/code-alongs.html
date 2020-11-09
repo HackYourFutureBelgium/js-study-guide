@@ -3,12 +3,22 @@
 
 <head>
   <meta charset="utf-8" />
+  <title>Code-Alongs</title>
 
-  <!-- you will need these styles and scripts -->
-  <link rel="stylesheet" data-name="vs/editor/editor.main" href="../lib/monaco/min/vs/editor/editor.main.css">
 
+  <style>
+    /* some demo styling */
+    .code-example {
+      width: 93vw;
+    }
+  </style>
+
+
+  <!-- you will need these styles and scripts to use <code-along> -->
   <script src='../lib/prettier/standalone.js'></script>
   <script src='../lib/prettier/parser-babel.js'></script>
+
+  <link rel="stylesheet" data-name="vs/editor/editor.main" href="../lib/monaco/min/vs/editor/editor.main.css">
 
   <script>var require = { paths: { 'vs': '../lib/monaco/min/vs' } };</script>
   <script src="../lib/monaco/min/vs/loader.js"></script>
@@ -17,12 +27,6 @@
 
   <script src='../lib/wc-code-along.js'></script>
 
-  <script src='../lib/evaluation-buttons.js'></script>
-
-  <script src='../lib/prism/prism.js'></script>
-  <link rel="stylesheet" href="../lib/prism/prism.css">
-
-  <link rel="stylesheet" href="./style.css">
 
 </head>
 
@@ -30,22 +34,18 @@
 
 
   <code-along src='./snippets/conditional.js' class='code-example'></code-along>
-  <pre data-src='./snippets/conditional.js'></pre>
 
   <hr>
 
   <code-along src='./snippets/while-loop.js' loop-guard class='code-example'></code-along>
-  <pre data-src='./snippets/while-loop.js'></pre>
 
   <hr>
 
   <code-along src='./snippets/for-loop.js' js-tutor loop-guard class='code-example'></code-along>
-  <pre data-src='./snippets/for-loop.js'></pre>
 
   <hr>
 
   <code-along src='./snippets/function.js' js-tutor class='code-example'></code-along>
-  <pre data-src='./snippets/function.js'></pre>
 
 
 </body>
